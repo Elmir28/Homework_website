@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.nav{
+    width: 100%;
+    min-height: 78px;
+    background-color: rgb(44, 4, 85);
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 10px 15px rgba(29, 12, 177, 0.4);
+    
+}
+
+.name_site{
+    max-width: 400px;
+    min-height: inherit;
+    float: left;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    min-width: 400px;
+    min-height: inherit;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu ul li{ 
+    list-style-type: none;
+    float: left;
+    margin: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent ;
+    
+}
+
+.menu ul li a:hover{
+    border-bottom: 2px solid red;
+    color: rgb(239, 239, 239);
+    padding-bottom: 7px;
+    border-radius: 15%;
+}
